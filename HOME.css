@@ -66,6 +66,9 @@ html::-webkit-scrollbar-track:hover {
   .u-section-1 .u-text-1 {
     font-size: 4.5rem;
   }
+   #blck{
+    opacity: 0;
+  }
 } .u-section-2 {
   background-image: url("images/photo_2022-12-17_22-05-12236535.jpg");
   background-position: 50% 50%;
