@@ -1,0 +1,33 @@
+html {
+  scrollbar-width: normal;
+  scrollbar-color: #777 #555;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  /* background-color: #4B0086; */
+  border-radius: 20%;
+  background: linear-gradient(to bottom, #db48bb, #8b26e3 87%);
+
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#D026EF), to(#852FCF));     */
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to left bottom, #852FCF, #fd5fdb);
+  /* background-color: -webkit-gradient(linear, left top, left bottom, from(#852FCF), to(#D026EF)); */
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgba(241, 224, 241, 0.945);
+}
+
+html::-webkit-scrollbar-track:hover {
+  background-color: rgb(222, 220, 220);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
