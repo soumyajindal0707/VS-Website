@@ -28,6 +28,11 @@ html::-webkit-scrollbar-track:hover {
   background-color: rgb(222, 220, 220);
 }
 
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 400px;
 }
@@ -66,10 +71,14 @@ html::-webkit-scrollbar-track:hover {
   .u-section-1 .u-text-1 {
     font-size: 4.5rem;
   }
-   #blck{
+  #blck{
+    /* height: 2vh;
+    top: 0vh; */
     opacity: 0;
   }
-} .u-section-2 {
+} 
+
+.u-section-2 {
   background-image: url("images/photo_2022-12-17_22-05-12236535.jpg");
   background-position: 50% 50%;
 }
@@ -214,12 +223,11 @@ html::-webkit-scrollbar-track:hover {
 
 .scroll-down {
   z-index: 12000;
-  height: 50px;
+  height: 70px;
   width: 30px;
   border: transparent;
   position: absolute;
-  left: 49.62%;
-  top: -170px;
+  top: -40vh;
   cursor: pointer;
 }
 
@@ -228,10 +236,10 @@ html::-webkit-scrollbar-track:hover {
   content: "";
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 50vw;
   height: 10px;
   width: 10px;
-  transform: translate(-50%, -100%) rotate(45deg);
+  transform: rotate(45deg);
   border: 2px solid #FFFDFD;
   border-top: transparent;
   border-left: transparent;
@@ -260,11 +268,10 @@ html::-webkit-scrollbar-track:hover {
 
 .scroll-up {
   z-index: 12;
-  height: 50px;
+  height: 70px;
   width: 30px;
   border: transparent;
   position: absolute;
-  left: 49.62%;
   top: 20px;
   cursor: pointer;
 }
@@ -274,10 +281,10 @@ html::-webkit-scrollbar-track:hover {
   content: "";
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 50vw;
   height: 10px;
   width: 10px;
-  transform: translate(-50%, -100%) rotate(45deg);
+  transform: rotate(45deg);
   border: 2px solid #FFFDFD;
   border-bottom: transparent;
   border-right: transparent;
@@ -801,12 +808,18 @@ html::-webkit-scrollbar-track:hover {
     min-height: 2092px;
     grid-auto-columns: 100%;
   }
-  .scroll-down::before,
   .scroll-down::after{
     border: 2px solid #852FCF;
     border-top: transparent;
     border-left: transparent;  
   }
+  .scroll-down::before{
+    border: 2px solid #FFFDFD;
+    border-top: transparent;
+    border-left: transparent;  
+    transform: translateY(-15px) rotate(45deg);
+  }
+
 }
 
 .u-section-3 .u-list-item-1,
@@ -816,12 +829,12 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-list-item-1.u-list-item-1.u-list-item-1:hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
 .u-section-3 .u-list-item-1.u-list-item-1.u-list-item-1.hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
@@ -840,12 +853,12 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-list-item-2.u-list-item-2.u-list-item-2:hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
 .u-section-3 .u-list-item-2.u-list-item-2.u-list-item-2.hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
@@ -864,12 +877,12 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-list-item-3.u-list-item-3.u-list-item-3:hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
 .u-section-3 .u-list-item-3.u-list-item-3.u-list-item-3.hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
@@ -888,12 +901,12 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-list-item-4.u-list-item-4.u-list-item-4:hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
 .u-section-3 .u-list-item-4.u-list-item-4.u-list-item-4.hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
@@ -912,12 +925,12 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-list-item-5.u-list-item-5.u-list-item-5:hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
 .u-section-3 .u-list-item-5.u-list-item-5.u-list-item-5.hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
@@ -936,12 +949,12 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-list-item-6.u-list-item-6.u-list-item-6:hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
 .u-section-3 .u-list-item-6.u-list-item-6.u-list-item-6.hover {
-  transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg) !important;
   box-shadow: 2px 2px 40px 5px rgba(51,51,51,0.8) !important;
 }
 
@@ -960,11 +973,11 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-btn-3.u-btn-3.u-btn-3:hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-btn-3.u-btn-3.u-btn-3.hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-container-layout:hover .u-btn-3 {
@@ -982,11 +995,11 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-btn-1.u-btn-1.u-btn-1:hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-btn-1.u-btn-1.u-btn-1.hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-container-layout:hover .u-btn-1 {
@@ -1040,11 +1053,11 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-btn-2.u-btn-2.u-btn-2:hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-btn-2.u-btn-2.u-btn-2.hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-container-layout:hover .u-btn-2 {
@@ -1062,11 +1075,11 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-btn-4.u-btn-4.u-btn-4:hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-btn-4.u-btn-4.u-btn-4.hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-container-layout:hover .u-btn-4 {
@@ -1084,11 +1097,11 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-btn-5.u-btn-5.u-btn-5:hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-btn-5.u-btn-5.u-btn-5.hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-container-layout:hover .u-btn-5 {
@@ -1106,11 +1119,11 @@ html::-webkit-scrollbar-track:hover {
 }
 
 .u-section-3 .u-btn-6.u-btn-6.u-btn-6:hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-btn-6.u-btn-6.u-btn-6.hover {
-  transform: scale(1.04) translateX(0px) translateY(0px) !important;
+  transform: scale(1) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-3 .u-container-layout:hover .u-btn-6 {
