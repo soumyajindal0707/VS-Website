@@ -822,6 +822,9 @@ body{
   .scroll-up{
     transform: translateY(12vh);
   }
+  .u-section-3{
+    transform: translateY(-0.8vh);
+  }
 }
 
 .u-section-3 .u-list-item-1,
