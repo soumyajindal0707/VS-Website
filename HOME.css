@@ -819,7 +819,9 @@ body{
     border-left: transparent;  
     transform: translateY(-15px) rotate(45deg);
   }
-
+  .scroll-up{
+    transform: translateY(12vh);
+  }
 }
 
 .u-section-3 .u-list-item-1,
