@@ -47,8 +47,15 @@ body{
 
 .u-section-2{
   background-image: url("images/photo_2022-12-17_22-05-12236535.jpg");
-  background-position: 50% 50%;
-  min-height: 810px;
+  min-height: 50vw;
+  background-size: 100vw 40vw;
+  background-position: bottom;
+  /* background-size: 100vw; */
+  /* background-position: 50% 50%; */
+  /* min-height: 610px; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+  /* min-width: 100vw; */
 }
 
 @media (max-width: 991px) {
@@ -78,12 +85,12 @@ body{
   }
 } 
 
-.u-section-2 {
+/* .u-section-2 {
   background-image: url("images/photo_2022-12-17_22-05-12236535.jpg");
   background-position: 50% 50%;
-}
+} */
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .u-section-2 {
     min-height: 683px;
   }
@@ -105,7 +112,7 @@ body{
   .u-section-2 {
     min-height: 231px;
   }
-}
+} */
 
 #vs {
   position: absolute;
