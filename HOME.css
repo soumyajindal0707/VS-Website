@@ -820,7 +820,7 @@ body{
     grid-auto-columns: 100%;
   }
   .scroll-down::after{
-    border: 2px solid #852FCF;
+    border: 2px solid #FFFDFD;
     border-top: transparent;
     border-left: transparent;  
   }
