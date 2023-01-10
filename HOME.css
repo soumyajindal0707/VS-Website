@@ -228,13 +228,17 @@ body{
   margin: 30px auto 0 calc(((100% - 1140px) / 2) + -10px);
 }
 
+.scroll-container{
+  padding: 5px;
+}
+
 .scroll-down {
   z-index: 12000;
-  height: 70px;
+  height: 30px;
   width: 30px;
   border: transparent;
   position: absolute;
-  top: -40vh;
+  top: -80px;
   cursor: pointer;
 }
 
@@ -250,7 +254,7 @@ body{
   border: 2px solid #FFFDFD;
   border-top: transparent;
   border-left: transparent;
-  animation: scroll-down 1s ease-in-out infinite;
+  animation: scroll-down 2s ease-in-out infinite;
 }
 
 @keyframes scroll-down {
@@ -275,7 +279,7 @@ body{
 
 .scroll-up {
   z-index: 12;
-  height: 70px;
+  height: 30px;
   width: 30px;
   border: transparent;
   position: absolute;
@@ -295,7 +299,7 @@ body{
   border: 2px solid #FFFDFD;
   border-bottom: transparent;
   border-right: transparent;
-  animation: scroll-up 1s ease-in-out infinite;
+  animation: scroll-up 2s ease-in-out infinite;
 }
 
 @keyframes scroll-up {
