@@ -820,15 +820,15 @@ body{
     grid-auto-columns: 100%;
   }
   .scroll-down::after{
-    border: 2px solid #FFFDFD;
+    border: 2px solid #FFFDFD00;
     border-top: transparent;
     border-left: transparent;  
   }
   .scroll-down::before{
-    border: 2px solid #FFFDFD;
+    border: 2px solid #852FCF;
     border-top: transparent;
     border-left: transparent;  
-    transform: translateY(-15px) rotate(45deg);
+    transform: translateY(-10vh) rotate(45deg);
   }
   .scroll-up{
     transform: translateY(12vh);
